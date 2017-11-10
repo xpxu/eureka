@@ -25,6 +25,7 @@ nbdist/
 
 ### logs ###
 logs/
+eureka.og
 
 ### application.properties ###
 application.properties

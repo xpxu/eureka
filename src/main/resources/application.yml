@@ -1,5 +1,9 @@
+spring:
+  application:
+    name: jingle-eureka
+
 server:
-  port: 8761
+  port: 14101
 
 eureka:
   instance:
@@ -10,3 +14,9 @@ eureka:
     fetchRegistry: false
     service-url:
       defaultZone: http://localhost:${server.port}/eureka/
+#  server:
+#    use-read-only-response-cache: true
+#    response-cache-update-interval-ms : 30000
+
+logging.path: /Users/pc-1900/vipkid/eureka
+logging.file: eureka.log
